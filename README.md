@@ -1,6 +1,4 @@
 # Terraform-Cloudstack-ARSAT
-cat <<EOF > README.md
-# Terraform CloudStack
 
 Infraestructura gestionada con Terraform.
 
@@ -10,10 +8,7 @@ Infraestructura gestionada con Terraform.
 
 ## Uso
 terraform init
-terraform plan
-terraform apply
-EOF
 
-git add README.md
-git commit -m "Add README"
-git push
+terraform plan
+
+terraform apply
